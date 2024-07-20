@@ -13,7 +13,10 @@ const RootLayout = ({ children }) => {
       <body>
         <Provider>
           <div className="">{/* ADD BACKGROUND div HERE */}</div>
-          <div className="app">{children}</div>
+          <div className="app">
+            <Nav />
+            {children}
+          </div>
         </Provider>
       </body>
     </html>
